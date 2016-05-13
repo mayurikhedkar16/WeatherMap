@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.neel.www.weathermap.MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/usercity"
+            android:textSize="25sp"
+            android:layout_marginLeft="12dp"
+
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tempdate"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/tempimage"/>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/maxtemp"
+                android:background="@drawable/layout_bg"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/layout_bg_grey"
+                android:id="@+id/mintemp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:id="@+id/descdata"
+                android:layout_marginLeft="5dp"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/speedtxt"
+            android:textSize="20sp"
+            android:layout_marginLeft="12dp"
+
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clouddatatxt"
+            android:textSize="20sp"
+            android:layout_marginLeft="12dp"
+
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
